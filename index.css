@@ -1,0 +1,46 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.uk-card-default:hover
+{
+    background: hsla(214, 92%, 47%, 1);
+
+    background: linear-gradient(45deg, hsla(214, 92%, 47%, 1) 0%, hsla(231, 85%, 24%, 1) 100%);
+    
+    background: -moz-linear-gradient(45deg, hsla(214, 92%, 47%, 1) 0%, hsla(231, 85%, 24%, 1) 100%);
+    
+    background: -webkit-linear-gradient(45deg, hsla(214, 92%, 47%, 1) 0%, hsla(231, 85%, 24%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0968E5", endColorstr="#091970", GradientType=1 );
+}
+.uk-card-default
+{
+    border-radius: 25px;
+
+    background: hsla(236, 100%, 8%, 1);
+
+    background: linear-gradient(45deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+
+    background: -moz-linear-gradient(45deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+
+    background: -webkit-linear-gradient(45deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000328", endColorstr="#00458E", GradientType=1 );
+}
+.custom-card
+{
+    border: 2px solid;
+    border-color: hsla(211, 100%, 28%, 1);
+    border-radius: 25px;
+}
+.custom-color
+{
+    color: #fff;
+}
+.custom-color:hover
+{
+    color: #222;
+}
