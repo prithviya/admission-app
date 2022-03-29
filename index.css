@@ -35,6 +35,9 @@
     border: 2px solid;
     border-color: hsla(211, 100%, 28%, 1);
     border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .custom-color
 {
